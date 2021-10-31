@@ -8,12 +8,13 @@ html {
   box-sizing: border-box;
 }
 body {
+  min-height: 150vh;
   overflow-x: hidden;
 }
 
 #abot {
   position: relative;
-  top: 150px;
+  top: 200px;
 }
 #jumbotron {
   position: relative;
