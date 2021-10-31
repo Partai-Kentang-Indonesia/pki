@@ -1,0 +1,13 @@
+#karosel {
+  position: relative;
+  height: 576px;
+  width: 1152px;
+}
+#img {
+  position: relative;
+  top: 30px;
+}
+#textimg {
+  position: relative;
+  font-size: larger;
+}

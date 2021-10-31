@@ -1,0 +1,29 @@
+#abot {
+  position: relative;
+  top: 150px;
+}
+#jumbotron {
+  position: relative;
+  top: 70px;
+}
+#juduljumbo {
+  font-family: 'akira';
+}
+#img {
+  position: relative;
+  top: 30px;
+}
+#jumbotext {
+  font-weight: bold;
+}
+#abot2 {
+  font-family: 'futuitalic';
+}
+@font-face {
+  font-family: akira;
+  src: url(Akira.otf);
+}
+@font-face {
+  font-family: futuitalic;
+  src: url(futura\ italic.ttf);
+}
