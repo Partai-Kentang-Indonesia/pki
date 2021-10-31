@@ -1,0 +1,12 @@
+.gg h1 {
+  font-family: 'tomi';
+}
+
+@font-face {
+  font-family: tomi;
+  src: url(tomi.otf);
+}
+
+.vs h1 {
+  font-family: 'tomi';
+}
