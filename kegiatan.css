@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  min-height: 580vh;
   overflow-x: hidden;
 }
 
@@ -23,4 +24,18 @@ body {
 #textimg {
   position: relative;
   font-size: larger;
+}
+footer {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  color: #808080;
+}
+footer h1 {
+  font-size: 12px;
+}
+@media screen and (max-width: 375px) {
+  footer {
+    left: 0px;
+  }
 }
