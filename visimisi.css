@@ -10,7 +10,10 @@ html {
 body {
   overflow-x: hidden;
 }
-
+.gg {
+  position: relative;
+  left: 100px;
+}
 .gg h1 {
   font-family: 'tomi';
 }
@@ -19,7 +22,33 @@ body {
   font-family: tomi;
   src: url(tomi.otf);
 }
+.vs {
+  position: relative;
+  left: 100px;
+}
 
 .vs h1 {
   font-family: 'tomi';
+}
+footer {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  color: #808080;
+}
+footer h1 {
+  font-size: 12px;
+}
+@media screen and (max-width: 375px) {
+  .vs {
+    position: relative;
+    left: 0px;
+  }
+  .gg {
+    position: relative;
+    left: 0px;
+  }
+  footer {
+    left: 0px;
+  }
 }
