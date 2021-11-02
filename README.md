@@ -1,1 +1,1 @@
-# pki
+# Partai Kentang Indonesia
