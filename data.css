@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  min-height: 360vh;
   overflow-x: hidden;
 }
 
@@ -20,8 +21,204 @@ body {
   position: relative;
   top: 50px;
 }
+.septian .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.septian .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.septian .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+
+.manda .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.manda .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.manda .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.ica .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.ica .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.ica .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.jeremi .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.jeremi .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.jeremi .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.adit .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.adit .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.adit .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.lexi .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.lexi .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.lexi .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.amel .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.amel .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.amel .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.ical .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.ical .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.ical .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+.gua .socialmedia ul {
+  position: absolute;
+  bottom: -6.5%;
+  left: 90%;
+  padding: 0;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.gua .socialmedia ul li {
+  list-style: none;
+  margin: 0 15px;
+  color: #000000;
+}
+.gua .socialmedia ul li .bi {
+  line-height: 60px;
+  transition: 0.6s;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+footer {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  color: #808080;
+}
+footer h1 {
+  font-size: 12px;
+}
 @media screen and (max-width: 375px) {
   .gridimg {
     left: 30px;
+  }
+  body {
+    min-height: 880vh;
+  }
+  footer {
+    left: 0px;
   }
 }
