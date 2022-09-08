@@ -44,11 +44,11 @@ footer h1 {
 }
 @font-face {
   font-family: akira;
-  src: url(Akira.otf);
+  src: url(./font/Akira.otf);
 }
 @font-face {
   font-family: futuitalic;
-  src: url(futura\ italic.ttf);
+  src: url(./font/futura italic.ttf);
 }
 @media screen and (max-width: 375px) {
   body {
